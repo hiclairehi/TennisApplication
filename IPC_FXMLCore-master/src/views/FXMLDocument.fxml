@@ -2,30 +2,25 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Text?>
 
 <VBox alignment="CENTER" prefHeight="321.0" prefWidth="373.0" spacing="12.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController">
    <children>
-        <Button fx:id="buttonClick" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefWidth="80.0" text="Click" />
-        <Label fx:id="labelMessage" lineSpacing="4.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="150.0" textAlignment="CENTER" wrapText="true" />
-      <GridPane>
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
+      <HBox alignment="CENTER" prefHeight="23.0" prefWidth="373.0">
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hello!" />
-            <Label text="Username:" GridPane.rowIndex="1" />
+            <Label fx:id="homeLabel" text="Home" />
+            <Pane prefHeight="23.0" prefWidth="253.0" />
+            <Label fx:id="updateProfileLabel" alignment="TOP_RIGHT" text="Update profile" />
          </children>
-      </GridPane>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="259.0" prefWidth="373.0">
+         <children>
+            <Button fx:id="myReservationButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#ReservationAction" prefHeight="25.0" prefWidth="159.0" text="My Reservations" />
+            <Pane prefHeight="17.0" prefWidth="373.0" />
+              <Button fx:id="BookTennisCourt" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#BookTennisCourtAction" prefHeight="25.0" prefWidth="159.0" text="Book Your Tennis Court" />
+         </children>
+      </VBox>
    </children>
 </VBox>

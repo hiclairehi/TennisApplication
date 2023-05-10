@@ -3,13 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/javafxmlapplication/JavaFXMLApplication.java</file>
             <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/views/SignUpFXML.fxml</file>
+            <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/javafxmlapplication/JavaFXMLApplication.java</file>
             <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/views/FXMLDocument.fxml</file>
-            <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/views/LoginFXML.fxml</file>
+            <file>jar:file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/lib/tenisClub.jar!/avatars/woman.PNG</file>
             <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/controller/FXMLDocumentController.java</file>
+            <file>jar:file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/lib/tenisClub.jar!/avatars/men2.PNG</file>
             <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/controller/SignUpController.java</file>
-            <file>file:/C:/Users/hicla/OneDrive/Desktop/IPCproject/TennisApplication/IPC_FXMLCore-master/src/controller/LoginController.java</file>
         </group>
     </open-files>
 </project-private>
